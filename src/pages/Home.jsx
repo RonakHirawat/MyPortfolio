@@ -1,19 +1,14 @@
 import { Link } from 'react-router-dom';
 import { TypewriterEffectSmooth } from '../components/ui/typewriter-effect';
 import { cn } from '../lib/utils';
+import profileImage from '../assets/profile.jpg';
 
 const Home = () => {
   const words = [
-    // { text: "Hi," },
-    // { text: "I'm" },
     { 
       text: "Hi I'm Ronak Hirawat",
       className: "text-indigo-600 dark:text-indigo-400" 
-    },
-    // { 
-    //   text: "Hirawat",
-    //   className: "text-indigo-600 dark:text-indigo-400" 
-    // }
+    }
   ];
 
   return (
@@ -30,14 +25,17 @@ const Home = () => {
             "border-indigo-500 dark:border-indigo-400",
             "shadow-lg hover:shadow-xl transition-shadow duration-300"
           )}>
-            {/* Replace with your actual image path */}
             <img 
+<<<<<<< HEAD
               src="profile.jpg" 
+=======
+              src={profileImage}
+>>>>>>> 396771c (Your commit message)
               alt="Ronak Hirawat"
               className="w-full h-full object-cover"
               onError={(e) => {
-                e.target.onerror = null; 
-                e.target.src = "https://via.placeholder.com/200"; // Fallback image
+                e.target.onerror = null;
+                e.target.src = "https://via.placeholder.com/200";
               }}
             />
           </div>
