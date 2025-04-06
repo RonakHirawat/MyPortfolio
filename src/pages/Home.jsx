@@ -26,11 +26,7 @@ const Home = () => {
             "shadow-lg hover:shadow-xl transition-shadow duration-300"
           )}>
             <img 
-<<<<<<< HEAD
-              src="profile.jpg" 
-=======
               src={profileImage}
->>>>>>> 396771c (Your commit message)
               alt="Ronak Hirawat"
               className="w-full h-full object-cover"
               onError={(e) => {
