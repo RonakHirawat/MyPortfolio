@@ -32,7 +32,7 @@ const Home = () => {
           )}>
             {/* Replace with your actual image path */}
             <img 
-              src="/profile.jpg" 
+              src="profile.jpg" 
               alt="Ronak Hirawat"
               className="w-full h-full object-cover"
               onError={(e) => {
