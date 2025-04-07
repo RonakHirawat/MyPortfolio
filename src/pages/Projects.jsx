@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: "🚀 ASCEND AI - AI-Powered Efficiency",
       description: "ASCEND AI is an intelligent automation system designed to enhance workflow efficiency using cutting-edge AI algorithms. It provides predictive analytics, process automation, and real-time insights for businesses, education, and sustainability initiatives.",
-      techStack: ["Python", "TensorFlow", "OpenAI API", "Flask", "React.js"],
+      techStack: ["Python", "OpenAI API", "Flask", "React.js"],
       features: [
         "AI-powered automation to optimize tasks",
         "Predictive analytics for smarter decision-making",
