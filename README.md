@@ -15,10 +15,11 @@
 
 ## 🛠️ Built With
 
-- **Frontend:** HTML, CSS, JavaScript, [React/Vue/Angular, etc.]
-- **Styling:** [Tailwind/Bootstrap/Sass, etc.]
-- **Deployment:** [Netlify/Vercel/GitHub Pages, etc.]
-- **Other Tools:** [Git, Figma, etc.]
+- ⚛️ React.js
+- 💨 Tailwind CSS
+- 🔧 Vite
+- 📦 JavaScript (ES6+)
+- 🔁 Git & GitHub
 
 ## 📂 Project Structure
 my-portfolio/ ├── public/ │ ├── index.html │ ├── favicon.ico │ └── assets/ # Static assets │ ├── profile-pic.jpg │ ├── project-images/ │ └── certification-images/ │ ├── src/ │ ├── components/ # Reusable React components │ │ ├── Header.jsx # Navigation header │ │ ├── Footer.jsx # Footer component │ │ ├── ProjectCard.jsx # Card for each project │ │ ├── CertificationCard.jsx# Card for each certification │ │ ├── SkillBar.jsx # Visual skill level indicator │ │ └── ThemeToggle.jsx # Dark/Light mode toggle (optional) │ │ │ ├── pages/ # Pages │ │ ├── Home.jsx # Home / Landing page │ │ ├── Projects.jsx # Projects showcase │ │ ├── About.jsx # About me section │ │ ├── Certifications.jsx # Certifications display │ │ └── Skills.jsx # Skills section │ │ │ ├── App.jsx # Main app component with routing │ ├── index.js # Entry point │ ├── App.css # Global styles │ ├── index.css # Tailwind CSS import │ │ ├── data/ # Structured data │ │ ├── projects.js │ │ ├── certifications.js │ │ └── skills.js │ │ └── utils/ │ └── helpers.js # Utility functions │ ├── package.json ├── tailwind.config.js # Tailwind configuration ├── postcss.config.js # PostCSS configuration └── README.md
