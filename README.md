@@ -21,48 +21,7 @@
 - **Other Tools:** [Git, Figma, etc.]
 
 ## 📂 Project Structure
-my-portfolio/
-├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   └── assets/                  # Static assets like images
-│       ├── profile-pic.jpg
-│       ├── project-images/
-│       └── certification-images/
-│
-├── src/
-│   ├── components/              # Reusable React components
-│   │   ├── Header.jsx           # Navigation header
-│   │   ├── Footer.jsx           # Footer component
-│   │   ├── ProjectCard.jsx      # Card for each project
-│   │   ├── CertificationCard.jsx # Card for each certification
-│   │   ├── SkillBar.jsx         # Visual skill level indicator
-│   │   └── ThemeToggle.jsx      # Dark/light mode toggle (optional)
-│   │
-│   ├── pages/                   # Page components
-│   │   ├── Home.jsx             # Home/Landing page
-│   │   ├── Projects.jsx         # Projects showcase
-│   │   ├── About.jsx            # About me section
-│   │   ├── Certifications.jsx   # Certifications display
-│   │   └── Skills.jsx           # Skills section
-│   │
-│   ├── App.jsx                  # Main app component with routing
-│   ├── index.js                  # React DOM render
-│   ├── App.css                  # Global styles
-│   ├── index.css                # Tailwind imports
-│   │
-│   ├── data/                    # Data files (optional)
-│   │   ├── projects.js          # Project data array
-│   │   ├── certifications.js    # Certification data array
-│   │   └── skills.js            # Skills data array
-│   │
-│   └── utils/                   # Utility functions
-│       └── helpers.js           # Helper functions
-│
-├── package.json
-├── tailwind.config.js           # Tailwind configuration
-├── postcss.config.js            # PostCSS configuration
-└── README.md
+my-portfolio/ ├── public/ │ ├── index.html │ ├── favicon.ico │ └── assets/ # Static assets │ ├── profile-pic.jpg │ ├── project-images/ │ └── certification-images/ │ ├── src/ │ ├── components/ # Reusable React components │ │ ├── Header.jsx # Navigation header │ │ ├── Footer.jsx # Footer component │ │ ├── ProjectCard.jsx # Card for each project │ │ ├── CertificationCard.jsx# Card for each certification │ │ ├── SkillBar.jsx # Visual skill level indicator │ │ └── ThemeToggle.jsx # Dark/Light mode toggle (optional) │ │ │ ├── pages/ # Pages │ │ ├── Home.jsx # Home / Landing page │ │ ├── Projects.jsx # Projects showcase │ │ ├── About.jsx # About me section │ │ ├── Certifications.jsx # Certifications display │ │ └── Skills.jsx # Skills section │ │ │ ├── App.jsx # Main app component with routing │ ├── index.js # Entry point │ ├── App.css # Global styles │ ├── index.css # Tailwind CSS import │ │ ├── data/ # Structured data │ │ ├── projects.js │ │ ├── certifications.js │ │ └── skills.js │ │ └── utils/ │ └── helpers.js # Utility functions │ ├── package.json ├── tailwind.config.js # Tailwind configuration ├── postcss.config.js # PostCSS configuration └── README.md
 
 📧 Contact Me
 Email: hirawat008ronak@gmail.com
