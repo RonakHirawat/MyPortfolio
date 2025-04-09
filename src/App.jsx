@@ -15,10 +15,10 @@ function App() {
         <main className="flex-grow container mx-auto px-4 py-8">
           <Routes>
             <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/certifications" element={<Certifications />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Certifications" element={<Certifications />} />
             {/* Add a catch-all route for 404 pages */}
             <Route path="*" element={<Home />} />
           </Routes>
