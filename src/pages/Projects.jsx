@@ -3,14 +3,15 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => {
   const projects = [
     {
-      title: "🚀 ASCEND AI - AI-Powered Efficiency",
-      description: "ASCEND AI is an intelligent automation system designed to enhance workflow efficiency using cutting-edge AI algorithms. It provides predictive analytics, process automation, and real-time insights for businesses, education, and sustainability initiatives.",
+      title: "💼 ASCEND AI – Smarter Career Guidance",
+      description: "ASCEND AI is an intelligent career guidance system that leverages AI to predict salaries based on educational qualifications and work experience. It also assists users in selecting optimal job roles aligned with their background and goals—empowering better career decisions across education, business, and sustainability domains.",
       techStack: ["Python", "OpenAI API", "Flask", "React.js"],
       features: [
-        "AI-powered automation to optimize tasks",
-        "Predictive analytics for smarter decision-making",
-        "NLP-driven chatbot for seamless interactions",
-        "Custom AI models for business and education sectors"
+        "AI-powered career prediction based on education and experience",
+        "Smart job role recommendations tailored to individual profiles",
+        "NLP-driven chatbot for real-time career assistance",
+        "Custom AI models built for education, recruitment, and workforce planning"
+
       ]
     },
     {
@@ -32,7 +33,7 @@ const Projects = () => {
       <p className="text-gray-600 dark:text-gray-400 mb-6 text-sm sm:text-base">
         Here are some of my best projects that showcase my expertise in AI, Web Development, and Software Engineering.
       </p>
-      
+
       <div className="space-y-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />

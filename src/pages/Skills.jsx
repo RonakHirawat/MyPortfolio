@@ -3,11 +3,13 @@ const Skills = () => {
     { name: "Python", level: 90 },
     { name: "Java", level: 85 },
     { name: "JavaScript", level: 80 },
+    { name: "C++", level: 90 },
     { name: "React", level: 75 },
-    { name: "TensorFlow", level: 70 },
     { name: "Machine Learning", level: 85 },
     { name: "SQL", level: 80 },
+    { name: "Tailwind CSS", level: 70 },
     { name: "HTML/CSS", level: 90 }
+    
   ];
 
   return (

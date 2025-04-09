@@ -22,7 +22,7 @@ const About = () => {
             <div>
               <h4 className="font-medium text-gray-700 dark:text-gray-300 text-sm sm:text-base">SRM Institute of Science and Technology</h4>
               <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">B.Tech in Computer Science (AI & ML)</p>
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">2022 - 2026</p>
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">2023 - 2027</p>
             </div>
           </div>
         </div>

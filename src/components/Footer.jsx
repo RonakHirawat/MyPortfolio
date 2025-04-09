@@ -12,6 +12,9 @@ const Footer = () => {
           <a href="https://github.com/RonakHirawat" className="text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm sm:text-base">
             GitHub
           </a>
+          <a href="hirawat008ronak@gmail.com" className="text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm sm:text-base">
+            Email
+          </a>
         </div>
       </div>
     </footer>
