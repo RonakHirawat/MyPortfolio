@@ -5,8 +5,8 @@ import { TypewriterEffectSmooth } from '../components/ui/typewriter-effect';
 const Home = () => {
   const words = [
     { 
-      text: "Hi I'm Ronak Hirawat",
-      className: "text-indigo-500 dark:text-indigo-400" 
+      text: "I'm Ronak Hirawat",
+      className: "text-indigo-600 dark:text-indigo-400" 
     }
   ];
   return (
