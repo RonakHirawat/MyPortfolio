@@ -27,13 +27,13 @@ const Projects = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">My Projects</h2>
-      <p className="text-gray-600 dark:text-gray-400 mb-8">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-6">My Projects</h2>
+      <p className="text-gray-600 dark:text-gray-400 mb-6 text-sm sm:text-base">
         Here are some of my best projects that showcase my expertise in AI, Web Development, and Software Engineering.
       </p>
       
-      <div className="space-y-8">
+      <div className="space-y-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}

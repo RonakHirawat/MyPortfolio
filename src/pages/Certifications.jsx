@@ -1,5 +1,4 @@
 import React from 'react';
-// Import your certification images
 import ibmMLCert from '../assets/ML.jpg';
 import metaDBCert from '../assets/Dbms.jpg';
 import londonCppCert from '../assets/CPP.jpg';
@@ -38,15 +37,14 @@ const Certifications = () => {
     ];
   
     return (
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Certifications</h2>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-6">Certifications</h2>
         
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-6">
           {certifications.map((cert, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-indigo-600">
-              <div className="flex flex-col md:flex-row gap-6">
-                {/* Image container */}
-                <div className="w-full md:w-1/4 flex-shrink-0">
+            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 border-l-4 border-indigo-600">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                <div className="w-full sm:w-1/4 flex-shrink-0">
                   <img 
                     src={cert.image} 
                     alt={`${cert.title} certification`}
@@ -54,15 +52,14 @@ const Certifications = () => {
                   />
                 </div>
                 
-                {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-1">{cert.title}</h3>
-                  <div className="flex items-center text-gray-600 dark:text-gray-400 mb-2">
+                  <h3 className="text-lg sm:text-xl font-semibold text-gray-800 dark:text-white mb-1">{cert.title}</h3>
+                  <div className="flex flex-col sm:flex-row sm:items-center text-gray-600 dark:text-gray-400 mb-2 text-sm sm:text-base">
                     <span>{cert.issuer}</span>
-                    <span className="mx-2">•</span>
+                    <span className="hidden sm:inline mx-2">•</span>
                     <span>{cert.date}</span>
                   </div>
-                  <p className="text-gray-700 dark:text-gray-300">{cert.description}</p>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base">{cert.description}</p>
                 </div>
               </div>
             </div>
