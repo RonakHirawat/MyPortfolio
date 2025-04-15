@@ -9,7 +9,7 @@ export const TypewriterEffectSmooth = ({
   cursorClassName,
   cursorColor = 'bg-neutral-600',
   cursorHeight = 'h-10',
-  textClassName = 'text-4xl font-bold',
+  textClassName = 'text-3xl font-bold',
   duration = 2,
   delay = 1
 }) => {
