@@ -60,8 +60,11 @@
 ├── index.css                   # Tailwind CSS import + global styles
 └── README.md                   # Project overview and instructions
 
+<<<<<<< HEAD
 📧 Contact Me
 Email: hirawat008ronak@gmail.com
 LinkedIn: https://www.linkedin.com/in/ronak-hirawat-2296672b5/
+=======
+>>>>>>> 83e2105 (changed the redame)
 
 
