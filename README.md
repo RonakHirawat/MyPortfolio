@@ -22,7 +22,43 @@
 - 🔁 Git & GitHub
 
 ## 📂 Project Structure
-my-portfolio/ ├── public/ │ ├── index.html │ ├── favicon.ico │ └── assets/ # Static assets │ ├── profile-pic.jpg │ ├── project-images/ │ └── certification-images/ │ ├── src/ │ ├── components/ # Reusable React components │ │ ├── Header.jsx # Navigation header │ │ ├── Footer.jsx # Footer component │ │ ├── ProjectCard.jsx # Card for each project │ │ ├── CertificationCard.jsx# Card for each certification │ │ ├── SkillBar.jsx # Visual skill level indicator │ │ └── ThemeToggle.jsx # Dark/Light mode toggle (optional) │ │ │ ├── pages/ # Pages │ │ ├── Home.jsx # Home / Landing page │ │ ├── Projects.jsx # Projects showcase │ │ ├── About.jsx # About me section │ │ ├── Certifications.jsx # Certifications display │ │ └── Skills.jsx # Skills section │ │ │ ├── App.jsx # Main app component with routing │ ├── index.js # Entry point │ ├── App.css # Global styles │ ├── index.css # Tailwind CSS import │ │ ├── data/ # Structured data │ │ ├── projects.js │ │ ├── certifications.js │ │ └── skills.js │ │ └── utils/ │ └── helpers.js # Utility functions │ ├── package.json ├── tailwind.config.js # Tailwind configuration ├── postcss.config.js # PostCSS configuration └── README.md
+.
+├── public/                      # Static assets (images, favicon, etc.)
+│   ├── index.html               # Main HTML template
+│   ├── favicon.ico              # Favicon
+│   └── assets/                  # Static image/media files
+│       ├── profile-pic.jpg
+│       ├── project-images/
+│       └── certification-images/
+├── src/
+│   ├── components/              # Reusable UI components
+│   │   ├── Header.tsx           # Navigation header
+│   │   ├── Footer.tsx           # Footer section
+│   │   ├── ProjectCard.tsx      # Project showcase card
+│   │   ├── CertificationCard.tsx# Certification display card
+│   │   ├── SkillBar.tsx         # Skill bar visualization
+│   │   └── ThemeToggle.tsx      # Theme switcher (optional)
+│   ├── contexts/                # Global contexts (if needed)
+│   ├── pages/                   # Main app pages
+│   │   ├── Home.tsx
+│   │   ├── Projects.tsx
+│   │   ├── About.tsx
+│   │   ├── Certifications.tsx
+│   │   └── Skills.tsx
+│   ├── data/                    # Structured data
+│   │   ├── projects.ts
+│   │   ├── certifications.ts
+│   │   └── skills.ts
+│   ├── utils/                   # Helper functions
+│   │   └── helpers.ts
+│   ├── App.tsx                  # Main app component with routing
+│   └── main.tsx                 # Entry point for Vite + React
+├── tailwind.config.ts          # Tailwind CSS configuration
+├── tsconfig.json               # TypeScript configuration
+├── postcss.config.js           # PostCSS plugins
+├── vite.config.ts              # Vite project configuration
+├── index.css                   # Tailwind CSS import + global styles
+└── README.md                   # Project overview and instructions
 
 📧 Contact Me
 Email: hirawat008ronak@gmail.com
