@@ -27,6 +27,17 @@ const Projects = () => {
       ]
     },
     {
+      title: "⚡ Electricity Billing System",
+      description: "A Java-based application designed to generate, manage, and store electricity bills efficiently. The system automates the billing process, tracks customer details, and ensures seamless data storage.",
+      techStack: ["Java", "Java Swing", "JDBC", "ActionListener"],
+      features: [
+        "Customer data storage using MySQL",
+        "Automated bill generation based on usage",
+        "Interactive Java Swing UI for user-friendly navigation",
+        "ActionListener-based event handling for smooth operation"
+      ]
+    },
+    {
       title: "🌴EliteEscapes: Luxury Beachfront Accommodation Booking Platform",
       description: "A professional-grade website built for EliteEscapes, offering exclusive beachfront apartments and hotel rooms. The platform features a sleek, user-friendly interface designed to showcase luxury accommodations with stunning visuals and seamless booking experience, built with modern web technologies.",
       techStack: ["Vite", "TypeScript", "React", "shadcn/ui", "Tailwind CSS"],
@@ -36,17 +47,6 @@ const Projects = () => {
         "Immersive UI/UX design highlighting panoramic sea views",
         "Secure user authentication and payment processing",
         "Personalized recommendations and customer reviews"
-      ]
-    },
-    {
-      title: "⚡ Electricity Billing System",
-      description: "A Java-based application designed to generate, manage, and store electricity bills efficiently. The system automates the billing process, tracks customer details, and ensures seamless data storage.",
-      techStack: ["Java", "Java Swing", "JDBC", "ActionListener"],
-      features: [
-        "Customer data storage using MySQL",
-        "Automated bill generation based on usage",
-        "Interactive Java Swing UI for user-friendly navigation",
-        "ActionListener-based event handling for smooth operation"
       ]
     }
   ];
