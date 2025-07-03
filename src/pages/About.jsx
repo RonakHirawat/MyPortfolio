@@ -45,7 +45,7 @@ const About = () => {
                 <h4 className="font-medium text-gray-700 dark:text-gray-300 text-sm sm:text-base">QwikLabs Developer Club</h4>
                 <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Associate Lead - Corporate Domain</p>
                 <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">September 2024 - July 2025</p>
-                <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">President - Corporate Domain</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">President</p>
                 <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">July 2025 - Present</p>
               </div>
             </div>
