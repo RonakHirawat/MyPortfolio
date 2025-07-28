@@ -11,7 +11,7 @@ const About = () => {
           I'm deeply interested in web development and exploring how machine learning can be used to solve real-world problems—especially in the fields of sustainability, education, and community well-being.
         </p>
         <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
-          I also serve as the Associate Lead of Corporate Domain at the QwikLabs Developer Club, where I get to collaborate with peers and work on exciting initiatives that bridge innovation and impact.
+          I also serve as the President at the QwikLabs Developer Club, where I get to collaborate with peers and work on exciting initiatives that bridge innovation and impact.
         </p>
       </div>
 
